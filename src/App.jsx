@@ -30,7 +30,6 @@ function App() {
 
 <h5 className="college-name">
   Shri Madhwa Vadiraja Institute of Technology and Management
-  Bantakal, Udupi,Karnataka.
 </h5>
 
           <p className="intro">
@@ -103,7 +102,7 @@ function App() {
           <br />
           3rd Year
           <br />
-          Shri Madhwa Vadiraja Institute of Technology and Management
+          Shri Madhwa Vadiraja Institute of Technology and Management<br /> Bantakal , Udupi, Karnataka.
         </p>
       </div>
 
