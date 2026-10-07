@@ -30,6 +30,7 @@ function App() {
 
 <h5 className="college-name">
   Shri Madhwa Vadiraja Institute of Technology and Management
+  <Bantakal>Bantakal, Karnataka</Bantakal>
 </h5>
 
           <p className="intro">
