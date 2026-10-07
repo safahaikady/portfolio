@@ -290,7 +290,7 @@ function App() {
             className="contact-card"
           >
             <h3>Email</h3>
-            <p>haikadysaf@gmail.com</p>
+            <p>haikadysafa@gmail.com</p>
           </a>
 
           <a
