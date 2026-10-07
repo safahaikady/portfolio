@@ -24,7 +24,11 @@ function App() {
 
           <h1>Safa</h1>
 
-          <h2>Computer Science Engineering Student</h2>
+          <h2>3rd Year B.E. Computer Science & Engineering Student</h2>
+
+<p className="college">
+  Shri Madhwa Vadiraja Institute of Technology and Management
+</p>
 
           <p className="intro">
             I am a Computer Science Engineering student passionate about
@@ -63,49 +67,55 @@ function App() {
         </div>
       </section>
 
-      {/* About Section */}
-      <section id="about" className="section about-section">
-        <h2>About Me</h2>
+  {/* About Section */}
+<section id="about" className="section about-section">
+  <h2>About Me</h2>
 
-        <div className="about-container">
-          <div className="about-text">
-            <p>
-              I am a Computer Science Engineering student with an interest in
-              software development, web development and artificial
-              intelligence.
-            </p>
+  <div className="about-container">
+    <div className="about-text">
+      <p>
+        I am a Computer Science Engineering student with an interest in
+        software development, web development and artificial
+        intelligence.
+      </p>
 
-            <p>
-              I enjoy working on practical projects, learning new technologies
-              and improving my problem-solving skills through hands-on
-              development.
-            </p>
+      <p>
+        I enjoy working on practical projects, learning new technologies
+        and improving my problem-solving skills through hands-on
+        development.
+      </p>
 
-            <p>
-              I am looking for opportunities where I can learn, collaborate
-              with others and apply my technical knowledge to real-world
-              problems.
-            </p>
-          </div>
+      <p>
+        I am looking for opportunities where I can learn, collaborate
+        with others and apply my technical knowledge to real-world
+        problems.
+      </p>
+    </div>
 
-          <div className="about-info">
-            <div className="info-card">
-              <h3>Education</h3>
-              <p>B.E. Computer Science & Engineering</p>
-            </div>
+    <div className="about-info">
+      <div className="info-card">
+        <h3>Education</h3>
+        <p>
+          B.E. Computer Science & Engineering
+          <br />
+          3rd Year
+          <br />
+          Shri Madhwa Vadiraja Institute of Technology and Management
+        </p>
+      </div>
 
-            <div className="info-card">
-              <h3>Interests</h3>
-              <p>Software Development • Web Development • AI</p>
-            </div>
+      <div className="info-card">
+        <h3>Interests</h3>
+        <p>Software Development • Web Development • AI</p>
+      </div>
 
-            <div className="info-card">
-              <h3>Currently Learning</h3>
-              <p>Java • Python • Web Technologies</p>
-            </div>
-          </div>
-        </div>
-      </section>
+      <div className="info-card">
+        <h3>Currently Learning</h3>
+        <p>Java • Python • Web Technologies</p>
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* Skills Section */}
       <section id="skills" className="section skills-section">
