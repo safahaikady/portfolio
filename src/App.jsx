@@ -24,13 +24,13 @@ function App() {
 
           <h1>Safa</h1>
 
-          <h2 className="academic-title">
+          <h3 className="academic-title">
   3rd Year Computer Science Engineering Student
-</h2>
+</h3>
 
-<p className="college">
+<h5 className="college-name">
   Shri Madhwa Vadiraja Institute of Technology and Management
-</p>
+</h5>
 
           <p className="intro">
             I am a Computer Science Engineering student passionate about
