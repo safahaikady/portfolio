@@ -2,11 +2,10 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="portfolio">
-
-      {/* Navigation Bar */}
+    <>
+      {/* Navbar */}
       <nav className="navbar">
-        <h2 className="logo">Safa.</h2>
+        <div className="logo">Safa.</div>
 
         <div className="nav-links">
           <a href="#home">Home</a>
@@ -20,93 +19,76 @@ function App() {
 
       {/* Home Section */}
       <section id="home" className="home">
-
         <div className="home-content">
-
-          <p className="hello">Hello, I'm</p>
+          <p>Hello, I'm</p>
 
           <h1>Safa</h1>
 
           <h2>Computer Science Engineering Student</h2>
 
-          <p>
-  I am a Computer Science Engineering student passionate about
-  software development and web technologies. I enjoy building
-  practical projects, solving problems and continuously learning
-  new technologies.
-</p>
+          <p className="intro">
+            I am a Computer Science Engineering student passionate about
+            software development and web technologies. I enjoy building
+            practical projects, solving problems and continuously learning new
+            technologies.
+          </p>
 
           <div className="buttons">
-
-            <a href="#projects" className="btn">
+            <a href="#projects" className="btn primary-btn">
               View My Projects
             </a>
-
-            
-
           </div>
 
           <div className="social-links">
+            <a
+              href="https://github.com/safahaikady"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub
+            </a>
 
             <a
-  href="https://github.com/safahaikady"
-  target="_blank"
-  rel="noreferrer"
->
-  GitHub
-</a>
-
-           <a
-  href="https://www.linkedin.com/in/safa-519608384/"
-  target="_blank"
-  rel="noreferrer"
->
-  LinkedIn
-</a>
-
+              href="https://www.linkedin.com/in/safa-519608384/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LinkedIn
+            </a>
           </div>
-
         </div>
 
         <div className="home-image">
-          <img
-            src="/profile.jpg"
-            alt="Safa"
-          />
+          <img src="/profile.jpg" alt="Safa" />
         </div>
-
       </section>
-
 
       {/* About Section */}
       <section id="about" className="section about-section">
-
         <h2>About Me</h2>
 
         <div className="about-container">
-
           <div className="about-text">
-
             <p>
-              I am a Computer Science Engineering student with an interest
-              in software development, web development and artificial
+              I am a Computer Science Engineering student with an interest in
+              software development, web development and artificial
               intelligence.
             </p>
 
             <p>
-              I enjoy building practical projects, learning new technologies
-              and improving my programming and problem-solving skills.
+              I enjoy working on practical projects, learning new technologies
+              and improving my problem-solving skills through hands-on
+              development.
             </p>
 
             <p>
-              I am always looking for opportunities to learn, collaborate
-              and apply my technical knowledge to real-world problems.
+              I am looking for opportunities where I can learn, collaborate
+              with others and apply my technical knowledge to real-world
+              problems.
             </p>
-
           </div>
 
           <div className="about-info">
-
             <div className="info-card">
               <h3>Education</h3>
               <p>B.E. Computer Science & Engineering</p>
@@ -121,21 +103,15 @@ function App() {
               <h3>Currently Learning</h3>
               <p>Java • Python • Web Technologies</p>
             </div>
-
           </div>
-
         </div>
-
       </section>
-
 
       {/* Skills Section */}
       <section id="skills" className="section skills-section">
-
         <h2>Skills</h2>
 
         <div className="skills-container">
-
           <div className="skill-category">
             <h3>Programming</h3>
 
@@ -164,199 +140,143 @@ function App() {
               <span>VS Code</span>
             </div>
           </div>
-
         </div>
-
       </section>
-
 
       {/* Projects Section */}
       <section id="projects" className="section projects-section">
-
         <h2>Projects</h2>
 
-        <div className="projects">
-
-          {/* Food Menu Management System */}
+        <div className="projects-container">
           <div className="project-card">
-
             <h3>Food Menu Management System</h3>
 
             <p>
-              A web-based restaurant menu management and ordering system
-              with separate customer and admin functionality.
+              A web-based restaurant menu management and ordering system with
+              separate customer and admin functionality.
             </p>
 
             <p className="tech">
               HTML • CSS • JavaScript • Node.js • MySQL
             </p>
 
-            <div className="project-buttons">
-
-              <a
-                href="https://github.com/safahaikady/Food-Menu-Management-System"
-                target="_blank"
-                rel="noreferrer"
-                className="project-btn"
-              >
-                GitHub
-              </a>
-
-            </div>
-
+            <a
+              href="https://github.com/safahaikady/Food-Menu-Management-System"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View Project →
+            </a>
           </div>
 
-
-          {/* HotelEase */}
           <div className="project-card">
-
             <h3>HotelEase</h3>
 
             <p>
-              A hotel management application designed to simplify
-              hotel-related operations using object-oriented programming.
+              A Java-based hotel management application developed using
+              Object-Oriented Programming concepts.
             </p>
 
-            <p className="tech">
-              Java • OOP
-            </p>
+            <p className="tech">Java • OOP</p>
 
-            <div className="project-buttons">
-
-              <a
-                href="https://github.com/safahaikady"
-                target="_blank"
-                rel="noreferrer"
-                className="project-btn"
-              >
-                GitHub
-              </a>
-
-            </div>
-
+            <a
+              href="https://github.com/safahaikady"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View Project →
+            </a>
           </div>
 
-
-          {/* TradeVault */}
           <div className="project-card">
-
             <h3>TradeVault</h3>
 
             <p>
-              A console-based Java stock trading and portfolio management
-              system that simulates buying, selling and managing stocks
-              and transactions.
+              A Java-based stock trading and portfolio management system
+              designed to simulate buying, selling and managing stocks.
             </p>
 
-            <p className="tech">
-              Java • OOP • ArrayList • File I/O
-            </p>
+            <p className="tech">Java • OOP</p>
 
-            <div className="project-buttons">
-
-              <a
-                href="https://github.com/safahaikady/CodeAlpha_TradeVault"
-                target="_blank"
-                rel="noreferrer"
-                className="project-btn"
-              >
-                GitHub
-              </a>
-
-            </div>
-
+            <a
+              href="https://github.com/safahaikady/CodeAlpha_TradeVault"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View Project →
+            </a>
           </div>
 
-
-          {/* Student Grade Tracker */}
           <div className="project-card">
-
             <h3>Student Grade Tracker</h3>
 
             <p>
-              A Java application for calculating and tracking student
-              grades and academic performance.
+              A Java application for calculating and tracking student grades
+              and academic performance.
             </p>
 
-            <p className="tech">
-              Java • OOP
-            </p>
+            <p className="tech">Java • OOP</p>
 
-            <div className="project-buttons">
-
-              <a
-                href="https://github.com/safahaikady"
-                target="_blank"
-                rel="noreferrer"
-                className="project-btn"
-              >
-                GitHub
-              </a>
-
-            </div>
-
+            <a
+              href="https://github.com/safahaikady"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View Project →
+            </a>
           </div>
-
         </div>
-
       </section>
-
 
       {/* Experience Section */}
       <section id="experience" className="section experience-section">
-
         <h2>Experience</h2>
 
         <div className="experience-card">
-
           <div className="experience-header">
-
             <div>
-              <h3>Software Development Intern</h3>
+              <h3>Java Programming Intern</h3>
               <p className="company">CodeAlpha</p>
             </div>
 
             <p className="duration">2026</p>
-
           </div>
 
           <ul>
             <li>
-              Developed Java-based applications using Object-Oriented Programming.
+              Developed Java-based applications using Object-Oriented
+              Programming concepts.
             </li>
 
             <li>
-              Worked on projects including HotelEase, TradeVault and Student Grade Tracker.
+              Worked on projects including HotelEase, TradeVault and Student
+              Grade Tracker.
             </li>
 
             <li>
-              Applied programming concepts to build practical software solutions.
+              Applied Java programming concepts to build practical software
+              solutions.
             </li>
 
             <li>
               Used Git and GitHub for project development and version control.
             </li>
           </ul>
-
         </div>
-
       </section>
-
 
       {/* Contact Section */}
       <section id="contact" className="section contact">
-
-        <h2>Let's Connect</h2>
+        <h2>Contact Me</h2>
 
         <p>
-          I'm always open to learning, collaborating and discussing
-          new opportunities and projects.
+          I am open to learning opportunities, collaborations and
+          opportunities to work on interesting projects.
         </p>
 
         <div className="contact-links">
-
           <a
-            href="mailto:your-email@example.com"
+            href="mailto:haikadysaf@gmail.com"
             className="contact-card"
           >
             <h3>Email</h3>
@@ -373,27 +293,23 @@ function App() {
             <p>github.com/safahaikady</p>
           </a>
 
-    <a
-  href="https://www.linkedin.com/in/safa-519608384/"
-  target="_blank"
-  rel="noreferrer"
-  className="contact-card"
->
-  <h3>LinkedIn</h3>
-  <p>Connect with me</p>
-</a>
-
+          <a
+            href="https://www.linkedin.com/in/safa-519608384/"
+            target="_blank"
+            rel="noreferrer"
+            className="contact-card"
+          >
+            <h3>LinkedIn</h3>
+            <p>linkedin.com/in/safa-519608384</p>
+          </a>
         </div>
-
       </section>
-
 
       {/* Footer */}
       <footer>
         <p>© 2026 Safa. All rights reserved.</p>
       </footer>
-
-    </div>
+    </>
   );
 }
 
