@@ -24,7 +24,9 @@ function App() {
 
           <h1>Safa</h1>
 
-          <h2>3rd Year B.E. Computer Science & Engineering Student</h2>
+          <h2 className="academic-title">
+  3rd Year Computer Science Engineering Student
+</h2>
 
 <p className="college">
   Shri Madhwa Vadiraja Institute of Technology and Management
